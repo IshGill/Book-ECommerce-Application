@@ -3,47 +3,48 @@
 
 # Description
 ## Home Page
-
+![0](https://user-images.githubusercontent.com/57751792/141950981-cff62f5d-4d9a-4391-8b33-3d04e3c4b121.JPG)
 -	We focused on designing the webpage with an elegant aesthetic styling, which was simple to digest for the user, hence, void of clutter and excess content. We also wanted to be able to portray to the user the various functionalities our web page has just from the home screen. For example, the ability to search for books by title and the tabs on the navigation bar which show authentication, reading list and browsing by feature functionalities of our webpage.
 
 ## Browsing books by category
-
+![0](https://user-images.githubusercontent.com/57751792/141947795-b073f7dd-5fdb-44f3-a28a-f9e258938e85.png)
 -	We have implemented three separate browsing categories for the user where the user 
 is able to sort books by their preference of date, author, and publisher. In the example above we have a user which has sorted the books by date.
 
 ## Book Searching
-
+![0](https://user-images.githubusercontent.com/57751792/141947853-61cd9ea3-1281-4823-9442-9dce3d53e9ab.png)
 -	As we stated previously in the home page description, this website has the added functionality where the user is able to query books which exist in the database via title. 
 -	This feature is able to pick up all books which contain the specified search query within their title.
 
 
 ## User Authentication
-
+![0](https://user-images.githubusercontent.com/57751792/141947949-dcf635c6-e2db-4e30-857f-f8d9fc5844f5.png)
 -	We have implemented full user authentication features into this website, where a user is able to register, login and interact with the special features of the website which we will discuss shortly.
 -	We have implemented SOLID principles, in particular the Single Responsibility Principle when implementing our authentication features for this website. 
 -	We have also used WTForms and appropriate HTML forms when implementing the authentication related features. 
 
 ## Reviewing Books
-
+![0](https://user-images.githubusercontent.com/57751792/141948007-d0e868f6-791e-44e3-81ec-c5e29ea28994.png)
 -	An authenticated user is able to post reviews on books which they have read via the book page and the Write a Review button. 
 -	The reviews are based on a 0-to-5-star system, and we have implemented WTForms into our reviewing system, as to avoid cuss words and invalid user input as reviews. 
 -	If a user is not authenticated, the webpage will redirect the user to the login page where they must login in order to place their review.
 -	We have applied a multitude on unit tests in order to test the functionality of our review system also.
 
 ## Reading List
-
+![0](https://user-images.githubusercontent.com/57751792/141948066-b8bf573e-e5ab-4bf7-84ee-477ef4a14494.png)
+![0](https://user-images.githubusercontent.com/57751792/141948075-c00af5b6-2de0-4559-95d0-c38c176bf47f.png)
 -	This is a brilliant feature where a logged in user is able to browse our selection of books via the home page, then by clicking on a particular book which they are interested in on the home page, the user is redirected to the books page, where they can find a button which allows them to add this particular book to their personal reading list. 
 -	There is no limit on the number of books a user can add, and whenever the user is finished with the book, they are able to click on the book in question to go to that books page and remove the particular book from their reading list.
 -	If a user is unauthenticated and tries to add a book to their reading list, they will be redirected to the login page. This functionality is present from both the add to reading list button and Reading list tab on the navigation bar.
 -	A List ADT was used to implement this feature. 
 
 ## User Profile
-
+![0](https://user-images.githubusercontent.com/57751792/141950375-8dc7dabc-03f6-4f59-89f1-eca73a541b3e.JPG)
 -	This feature depicts the profile of an authenticated user, where the user is able to keep track of all of the reviews, they have made for books which they have read. 
 -	We believe this is an important feature a user would enjoy as if for example, they wanted to re-read a book which they previously appreciated.
 
 ## Rating, price, and stock system
-
+![0](https://user-images.githubusercontent.com/57751792/141948170-491e42a7-31aa-4f74-826b-6b108dcfd88a.png)
 -	As you may have noticed from the home page, each book icon has a very aesthetic design which features tags depicting the price and current stock of each individual book. 
 -	We also have implemented a rating system, which is based on 5 stars. Therefore, every user is able to view the number of ratings and average rating of a book which they may be interested in reading. 
 -	These pricing, stock and rating details are once again reiterated in the product details section of the books page, alongside additional details such as formats available and page, publication, and publisher data. 
