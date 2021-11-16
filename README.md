@@ -12,13 +12,12 @@
 is able to sort books by their preference of date, author, and publisher. In the example above we have a user which has sorted the books by date.
 
 ## Book Searching
-![0](https://user-images.githubusercontent.com/57751792/141947853-61cd9ea3-1281-4823-9442-9dce3d53e9ab.png)
+![0](https://user-images.githubusercontent.com/57751792/141951962-56d187e0-3981-4a15-9e43-4c2822dcc549.JPG)
 -	As we stated previously in the home page description, this website has the added functionality where the user is able to query books which exist in the database via title. 
 -	This feature is able to pick up all books which contain the specified search query within their title.
 
-
 ## User Authentication
-![0](https://user-images.githubusercontent.com/57751792/141947949-dcf635c6-e2db-4e30-857f-f8d9fc5844f5.png)
+![0](https://user-images.githubusercontent.com/57751792/141951826-9130202a-dede-4c0f-8c91-b87b6bf55489.JPG)
 -	We have implemented full user authentication features into this website, where a user is able to register, login and interact with the special features of the website which we will discuss shortly.
 -	We have implemented SOLID principles, in particular the Single Responsibility Principle when implementing our authentication features for this website. 
 -	We have also used WTForms and appropriate HTML forms when implementing the authentication related features. 
