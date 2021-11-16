@@ -1,4 +1,4 @@
-# COMPSCI 235 Starter Repository for Assignment 2
+# Book E-Commerce Web Application
 
 
 ## Description
@@ -28,13 +28,6 @@ $ pip install -r requirements.txt
 ```
 
 When using PyCharm for requirements installation, set the virtual environment using 'File'->'Settings' and select your project from the left menu. Select 'Project Interpreter', click on the gearwheel button and select 'Add'. Click the 'Existing environment' radio button to select the virtual environment. 
-
-
-## Testing with the pytest unit tests
-
-After you have configured pytest as the testing tool for PyCharm (File - Settings - Tools - Python Integrated Tools - Testing), you can then run tests from within PyCharm by right-clicking the tests folder and selecting "Run pytest in tests".
-
-Alternatively, from a terminal in the root folder of the project, you can also call 'python -m pytest tests' to run all the tests. PyCharm also provides a built-in terminal, which uses the configured virtual environment. 
 
 
 ## Execution of the web application
